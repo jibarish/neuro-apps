@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12A9C4F1C06E921007ECE08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A9C4E1C06E921007ECE08 /* main.m */; };
+		B12A9C521C06E921007ECE08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A9C511C06E921007ECE08 /* AppDelegate.m */; };
+		B12A9C551C06E921007ECE08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A9C541C06E921007ECE08 /* ViewController.m */; };
+		B12A9C581C06E921007ECE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12A9C561C06E921007ECE08 /* Main.storyboard */; };
+		B12A9C5A1C06E921007ECE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12A9C591C06E921007ECE08 /* Assets.xcassets */; };
+		B12A9C5D1C06E921007ECE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12A9C5B1C06E921007ECE08 /* LaunchScreen.storyboard */; };
+		B12A9C681C06E921007ECE08 /* NeuroSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A9C671C06E921007ECE08 /* NeuroSampleTests.m */; };
+		B12A9C731C06E921007ECE08 /* NeuroSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A9C721C06E921007ECE08 /* NeuroSampleUITests.m */; };
+		B12A9C841C06EADE007ECE08 /* libTGAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12A9C811C06EADE007ECE08 /* libTGAccessory.a */; };
+		B12A9C861C06EAF0007ECE08 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12A9C851C06EAF0007ECE08 /* Accelerate.framework */; };
+		B12A9C881C06EAF9007ECE08 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12A9C871C06EAF9007ECE08 /* ExternalAccessory.framework */; };
+		B12A9C8A1C06EAFF007ECE08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12A9C891C06EAFF007ECE08 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B12A9C641C06E921007ECE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B12A9C421C06E921007ECE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12A9C491C06E921007ECE08;
+			remoteInfo = NeuroSample;
+		};
+		B12A9C6F1C06E921007ECE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B12A9C421C06E921007ECE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12A9C491C06E921007ECE08;
+			remoteInfo = NeuroSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B12A9C4A1C06E921007ECE08 /* NeuroSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12A9C4E1C06E921007ECE08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B12A9C501C06E921007ECE08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B12A9C511C06E921007ECE08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B12A9C531C06E921007ECE08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B12A9C541C06E921007ECE08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B12A9C571C06E921007ECE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B12A9C591C06E921007ECE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B12A9C5C1C06E921007ECE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B12A9C5E1C06E921007ECE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12A9C631C06E921007ECE08 /* NeuroSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12A9C671C06E921007ECE08 /* NeuroSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuroSampleTests.m; sourceTree = "<group>"; };
+		B12A9C691C06E921007ECE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12A9C6E1C06E921007ECE08 /* NeuroSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12A9C721C06E921007ECE08 /* NeuroSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuroSampleUITests.m; sourceTree = "<group>"; };
+		B12A9C741C06E921007ECE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12A9C811C06EADE007ECE08 /* libTGAccessory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTGAccessory.a; sourceTree = "<group>"; };
+		B12A9C821C06EADE007ECE08 /* TGAccessoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAccessoryDelegate.h; sourceTree = "<group>"; };
+		B12A9C831C06EADE007ECE08 /* TGAccessoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAccessoryManager.h; sourceTree = "<group>"; };
+		B12A9C851C06EAF0007ECE08 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B12A9C871C06EAF9007ECE08 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		B12A9C891C06EAFF007ECE08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12A9C471C06E921007ECE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A9C8A1C06EAFF007ECE08 /* QuartzCore.framework in Frameworks */,
+				B12A9C881C06EAF9007ECE08 /* ExternalAccessory.framework in Frameworks */,
+				B12A9C861C06EAF0007ECE08 /* Accelerate.framework in Frameworks */,
+				B12A9C841C06EADE007ECE08 /* libTGAccessory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A9C601C06E921007ECE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A9C6B1C06E921007ECE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12A9C411C06E921007ECE08 = {
+			isa = PBXGroup;
+			children = (
+				B12A9C891C06EAFF007ECE08 /* QuartzCore.framework */,
+				B12A9C871C06EAF9007ECE08 /* ExternalAccessory.framework */,
+				B12A9C851C06EAF0007ECE08 /* Accelerate.framework */,
+				B12A9C801C06EA6B007ECE08 /* Libraries */,
+				B12A9C4C1C06E921007ECE08 /* NeuroSample */,
+				B12A9C661C06E921007ECE08 /* NeuroSampleTests */,
+				B12A9C711C06E921007ECE08 /* NeuroSampleUITests */,
+				B12A9C4B1C06E921007ECE08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12A9C4B1C06E921007ECE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12A9C4A1C06E921007ECE08 /* NeuroSample.app */,
+				B12A9C631C06E921007ECE08 /* NeuroSampleTests.xctest */,
+				B12A9C6E1C06E921007ECE08 /* NeuroSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12A9C4C1C06E921007ECE08 /* NeuroSample */ = {
+			isa = PBXGroup;
+			children = (
+				B12A9C501C06E921007ECE08 /* AppDelegate.h */,
+				B12A9C511C06E921007ECE08 /* AppDelegate.m */,
+				B12A9C531C06E921007ECE08 /* ViewController.h */,
+				B12A9C541C06E921007ECE08 /* ViewController.m */,
+				B12A9C561C06E921007ECE08 /* Main.storyboard */,
+				B12A9C591C06E921007ECE08 /* Assets.xcassets */,
+				B12A9C5B1C06E921007ECE08 /* LaunchScreen.storyboard */,
+				B12A9C5E1C06E921007ECE08 /* Info.plist */,
+				B12A9C4D1C06E921007ECE08 /* Supporting Files */,
+			);
+			path = NeuroSample;
+			sourceTree = "<group>";
+		};
+		B12A9C4D1C06E921007ECE08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12A9C4E1C06E921007ECE08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B12A9C661C06E921007ECE08 /* NeuroSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B12A9C671C06E921007ECE08 /* NeuroSampleTests.m */,
+				B12A9C691C06E921007ECE08 /* Info.plist */,
+			);
+			path = NeuroSampleTests;
+			sourceTree = "<group>";
+		};
+		B12A9C711C06E921007ECE08 /* NeuroSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B12A9C721C06E921007ECE08 /* NeuroSampleUITests.m */,
+				B12A9C741C06E921007ECE08 /* Info.plist */,
+			);
+			path = NeuroSampleUITests;
+			sourceTree = "<group>";
+		};
+		B12A9C801C06EA6B007ECE08 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B12A9C811C06EADE007ECE08 /* libTGAccessory.a */,
+				B12A9C821C06EADE007ECE08 /* TGAccessoryDelegate.h */,
+				B12A9C831C06EADE007ECE08 /* TGAccessoryManager.h */,
+			);
+			name = Libraries;
+			path = NeuroSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12A9C491C06E921007ECE08 /* NeuroSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12A9C771C06E921007ECE08 /* Build configuration list for PBXNativeTarget "NeuroSample" */;
+			buildPhases = (
+				B12A9C461C06E921007ECE08 /* Sources */,
+				B12A9C471C06E921007ECE08 /* Frameworks */,
+				B12A9C481C06E921007ECE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroSample;
+			productName = NeuroSample;
+			productReference = B12A9C4A1C06E921007ECE08 /* NeuroSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B12A9C621C06E921007ECE08 /* NeuroSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12A9C7A1C06E921007ECE08 /* Build configuration list for PBXNativeTarget "NeuroSampleTests" */;
+			buildPhases = (
+				B12A9C5F1C06E921007ECE08 /* Sources */,
+				B12A9C601C06E921007ECE08 /* Frameworks */,
+				B12A9C611C06E921007ECE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12A9C651C06E921007ECE08 /* PBXTargetDependency */,
+			);
+			name = NeuroSampleTests;
+			productName = NeuroSampleTests;
+			productReference = B12A9C631C06E921007ECE08 /* NeuroSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B12A9C6D1C06E921007ECE08 /* NeuroSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12A9C7D1C06E921007ECE08 /* Build configuration list for PBXNativeTarget "NeuroSampleUITests" */;
+			buildPhases = (
+				B12A9C6A1C06E921007ECE08 /* Sources */,
+				B12A9C6B1C06E921007ECE08 /* Frameworks */,
+				B12A9C6C1C06E921007ECE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12A9C701C06E921007ECE08 /* PBXTargetDependency */,
+			);
+			name = NeuroSampleUITests;
+			productName = NeuroSampleUITests;
+			productReference = B12A9C6E1C06E921007ECE08 /* NeuroSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B12A9C421C06E921007ECE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Roger Rush";
+				TargetAttributes = {
+					B12A9C491C06E921007ECE08 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B12A9C621C06E921007ECE08 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B12A9C491C06E921007ECE08;
+					};
+					B12A9C6D1C06E921007ECE08 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B12A9C491C06E921007ECE08;
+					};
+				};
+			};
+			buildConfigurationList = B12A9C451C06E921007ECE08 /* Build configuration list for PBXProject "NeuroSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B12A9C411C06E921007ECE08;
+			productRefGroup = B12A9C4B1C06E921007ECE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12A9C491C06E921007ECE08 /* NeuroSample */,
+				B12A9C621C06E921007ECE08 /* NeuroSampleTests */,
+				B12A9C6D1C06E921007ECE08 /* NeuroSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12A9C481C06E921007ECE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A9C5D1C06E921007ECE08 /* LaunchScreen.storyboard in Resources */,
+				B12A9C5A1C06E921007ECE08 /* Assets.xcassets in Resources */,
+				B12A9C581C06E921007ECE08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A9C611C06E921007ECE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A9C6C1C06E921007ECE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B12A9C461C06E921007ECE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A9C551C06E921007ECE08 /* ViewController.m in Sources */,
+				B12A9C521C06E921007ECE08 /* AppDelegate.m in Sources */,
+				B12A9C4F1C06E921007ECE08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A9C5F1C06E921007ECE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A9C681C06E921007ECE08 /* NeuroSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12A9C6A1C06E921007ECE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A9C731C06E921007ECE08 /* NeuroSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B12A9C651C06E921007ECE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12A9C491C06E921007ECE08 /* NeuroSample */;
+			targetProxy = B12A9C641C06E921007ECE08 /* PBXContainerItemProxy */;
+		};
+		B12A9C701C06E921007ECE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12A9C491C06E921007ECE08 /* NeuroSample */;
+			targetProxy = B12A9C6F1C06E921007ECE08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B12A9C561C06E921007ECE08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12A9C571C06E921007ECE08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B12A9C5B1C06E921007ECE08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12A9C5C1C06E921007ECE08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B12A9C751C06E921007ECE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B12A9C761C06E921007ECE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B12A9C781C06E921007ECE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NeuroSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NeuroSample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs441.NeuroSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B12A9C791C06E921007ECE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NeuroSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NeuroSample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs441.NeuroSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B12A9C7B1C06E921007ECE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeuroSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs441.NeuroSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroSample.app/NeuroSample";
+			};
+			name = Debug;
+		};
+		B12A9C7C1C06E921007ECE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeuroSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs441.NeuroSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroSample.app/NeuroSample";
+			};
+			name = Release;
+		};
+		B12A9C7E1C06E921007ECE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeuroSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs441.NeuroSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeuroSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B12A9C7F1C06E921007ECE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeuroSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs441.NeuroSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeuroSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B12A9C451C06E921007ECE08 /* Build configuration list for PBXProject "NeuroSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12A9C751C06E921007ECE08 /* Debug */,
+				B12A9C761C06E921007ECE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12A9C771C06E921007ECE08 /* Build configuration list for PBXNativeTarget "NeuroSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12A9C781C06E921007ECE08 /* Debug */,
+				B12A9C791C06E921007ECE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12A9C7A1C06E921007ECE08 /* Build configuration list for PBXNativeTarget "NeuroSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12A9C7B1C06E921007ECE08 /* Debug */,
+				B12A9C7C1C06E921007ECE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12A9C7D1C06E921007ECE08 /* Build configuration list for PBXNativeTarget "NeuroSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12A9C7E1C06E921007ECE08 /* Debug */,
+				B12A9C7F1C06E921007ECE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B12A9C421C06E921007ECE08 /* Project object */;
+}
